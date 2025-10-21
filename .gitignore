@@ -22,6 +22,7 @@ dados/*.db
 dados/*.db-journal
 dados/*.csv
 dados/*.xlsx
+dados/*txt
 
 # Exceção: Se você tiver um arquivo CSV/Excel "estático"
 # que você usa como entrada, você pode "des-ignorar" ele:
