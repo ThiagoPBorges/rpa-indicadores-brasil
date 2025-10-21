@@ -1,0 +1,4 @@
+Quando instalar nova biblioteca, rodar o código abaixo :
+Para o sistema ler quais bibliotecas usar no ambiente virtual
+
+    pip freeze > requirements.txt

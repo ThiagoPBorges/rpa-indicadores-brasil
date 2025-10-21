@@ -1,0 +1,28 @@
+# Ignora o Ambiente Virtual (ESSENCIAL)
+venv/
+
+# Ignora caches e arquivos de sistema do Python
+__pycache__/
+*.pyc
+
+# Ignora arquivos de configuração de editores
+.vscode/
+.idea/
+
+# Ignora arquivos de sistema (Mac e Windows)
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de log
+*.log
+
+# Ignora os dados gerados (banco e arquivos de dados)
+# Não queremos versionar dados, apenas o CÓDIGO que gera os dados.
+dados/*.db
+dados/*.db-journal
+dados/*.csv
+dados/*.xlsx
+
+# Exceção: Se você tiver um arquivo CSV/Excel "estático"
+# que você usa como entrada, você pode "des-ignorar" ele:
+# !dados/meu_arquivo_estatico.csv
