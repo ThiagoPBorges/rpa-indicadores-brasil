@@ -34,7 +34,7 @@ print("\n--- Executando a coleta ---\n")
 listadf = []
 
 #Loop para criar dataframe com as listas
-for nome_indicador, codigo_indicador in indicadores.items():
+for nome_indicador, codigo_indicador in indicadores.items(): #Utiliza items por conta de coletar do dicionário indicadores ((Key : Value))
     dados_coletados = coleta_dados(codigo_indicador, data_inicio, data_fim)
 
     if dados_coletados:
