@@ -22,7 +22,8 @@ dados/*.db
 dados/*.db-journal
 dados/*.csv
 dados/*.xlsx
-dados/*txt
+dados/*.txt
+dados/*.docx
 
 # Exceção: Se você tiver um arquivo CSV/Excel "estático"
 # que você usa como entrada, você pode "des-ignorar" ele:
