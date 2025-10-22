@@ -53,5 +53,5 @@ df_final = pd.concat(listadf, ignore_index=True)
 #Exportar tabela para um arquivo.csv
 df_final.to_csv('dados/indicadores_brutos.csv', index=False)
 
-print("\n--- Script 'coleta_api.py' concluído com sucesso! ---\n")
+print("\n--- Script 'coleta_api.py' concluído com sucesso! ---")
 print("\n--- Um arquivo 'indicadores_brutos.csv' foi criado na pasta /dados ---\n")
